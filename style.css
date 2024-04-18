@@ -157,7 +157,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("bghome.jpg") no-repeat center;
+    background: url("img/bghome.jpg") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -251,7 +251,7 @@ section .title::after{
 /* skills section styling */
 .skills{
     display: flex;
-    background: url("bghome.jpg") no-repeat center;
+    background: url("img/bghome.jpg") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -328,6 +328,18 @@ section .title::after{
 .skills-content .right .php::before{
     width: 75%;
 }
+.skills-content .right .C::before{
+    width: 90%;
+}
+.skills-content .right .pyt::before{
+    width: 80%;
+}
+.skills-content .right .java::before{
+    width: 85%;
+}
+.skills-content .right .pshop::before{
+    width: 90%;
+}
 
 
 /* teams section styling */
@@ -338,7 +350,7 @@ section .title::after{
 .works .carousel .card{
     background: #222;
     border-radius: 0px;
-    padding: 15px 25px;
+    padding: 10px 20px;
     text-align: center;
     overflow: hidden;
     transition: all 0.3s ease;
