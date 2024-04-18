@@ -158,7 +158,7 @@ section .title::after{
 .home{
     display: flex;
     background: url("bg.jpg") no-repeat center;
-    height: 100vh;
+    height: 150vh;
     color: #fff;
     min-height: 500px;
     background-size: cover;
@@ -205,6 +205,15 @@ section .title::after{
     background: none;
 }
 /* about section styling */
+.about{
+    display: flex;
+    background: url("bg.jpg") no-repeat center;
+    height: 150vh;
+    color: #fff;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+}
 .about .title::after{
     content: "who i am";
 }
